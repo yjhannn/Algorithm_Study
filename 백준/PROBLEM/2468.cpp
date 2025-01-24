@@ -1,3 +1,8 @@
+// 맞왜틀 Tip
+// 반례를 생각할것
+// 반례 : 최소 최대, 없거나 있거나
+// 이 문제에서는 아무지역도 침수되지 않았을 때를 잘 생각해야 함
+// ret = 1
 #include <iostream>
 #include <vector>
 #include <algorithm>
