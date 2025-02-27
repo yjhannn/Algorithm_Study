@@ -1,3 +1,4 @@
+//짝짓기 -> 스택을 사용하는 것을 먼저 고려할 것!
 #include <iostream>
 #include <string>
 #include <stack>
