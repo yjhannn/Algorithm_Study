@@ -4,13 +4,13 @@
 using namespace std;
 int n, k, x[50], y[50];
 
-int solve(int a, int b, int c) {
-  int cnt = 0;
-  for(int i = 0; i < n; i++) {
-    cnt = max(cnt, min(min(abs(x[a] - x[i]) + abs(y[a] - y[i]), abs(x[b] - x[i]) 
-    + abs(y[b] - y[i]), abs(x[c] - x[i]) + abs(y[c] - y[i]))));
+int solve(int i, int j, int k){
+  int res = 0;
+  for(int h=0; h<n; h++){
+      res = max(res, min(min(abs(x[i]-x[h])+abs(y[i]-y[h]), abs(x[j]-x[h])+abs(y[j]-y[h])), 
+                abs(x[k]-x[h])+abs(y[k]-y[h])));
   }
-  return cnt;
+  return res;
 }
 
 int main() {
