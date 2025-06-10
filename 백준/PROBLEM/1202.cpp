@@ -3,8 +3,8 @@
 #include <queue>
 #include <algorithm>
 using namespace std;
-int n, k, m, v, ret;
-long long int c;
+int n, k, m, v;
+long long c, ret;
 vector<pair<int, int> > jw;
 vector<int> bag;
 priority_queue<int> pq;
