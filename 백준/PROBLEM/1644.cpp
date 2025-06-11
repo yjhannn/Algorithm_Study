@@ -17,6 +17,7 @@ int main() {
       a[p++] = i;
   }
 
+  // 연속 소수합 경우의 수 구하기
   while(1) {
     if(sum >= n)
       sum -= a[low++];
