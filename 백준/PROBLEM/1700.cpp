@@ -1,6 +1,7 @@
 // Optimal Page Replacement
 #include <iostream>
 #include <vector>
+#include <algorithm> // find 함수
 using namespace std;
 const int INF = 987654321;
 int n, k, a[101], visited[101], ret;
